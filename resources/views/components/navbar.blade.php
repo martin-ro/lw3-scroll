@@ -4,7 +4,8 @@
 			<div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
 				<div class="hidden sm:ml-6 sm:block">
 					<div class="flex space-x-4">
-						<a wire:navigate href="/" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Users</a>
+						<a wire:navigate href="/" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">User Index (volt component)</a>
+						<a wire:navigate href="/users" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">User Index (lw3 component)</a>
 					</div>
 				</div>
 			</div>
