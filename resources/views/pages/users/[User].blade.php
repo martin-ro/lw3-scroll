@@ -10,6 +10,6 @@
         <div class="h-96 bg-blue-300"></div>
         <div class="h-96 bg-blue-200"></div>
         <div class="h-96 bg-blue-100"></div>
-        <div>{{ $user->created_at }}</div>
+        <div><a wire:navigate href="/">Home</a></div>
     </div>
 </x-layouts.app>
